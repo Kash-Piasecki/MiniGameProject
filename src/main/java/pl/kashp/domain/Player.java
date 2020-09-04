@@ -5,11 +5,13 @@ public class Player {
     private boolean normalLife;
     private boolean extraLife;
     private boolean secondChance;
+    private boolean chanceToPlayOn;
 
     public Player() {
         this.normalLife = true;
         this.extraLife = false;
-        this.secondChance = true;
+        this.secondChance = false;
+        this.chanceToPlayOn = true;
     }
 
     public int getCash() {
@@ -30,6 +32,14 @@ public class Player {
 
     public boolean hasExtraLife() {
         return extraLife;
+    }
+
+    public boolean hasChanceToPlayOn() {
+        return chanceToPlayOn;
+    }
+
+    public void setchanceToPlayOn(boolean chanceToPlayOn) {
+        this.chanceToPlayOn = chanceToPlayOn;
     }
 
     public void setExtraLife(boolean extraLife) {
