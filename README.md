@@ -2,8 +2,8 @@
 A project of mini game given to me by my friend to show java language knowledge.
 <br><br>
 <img src="https://raw.githubusercontent.com/KashPiasecki/KashPiasecki/master/images/dice-147157_640.png" alt="Game"><br>
-Find out the average euro value rewarded when playing one round of this game, using a
-simulation on 10 million rounds.
+<!-- Find out the average euro value rewarded when playing one round of this game, using a
+simulation on 10 million rounds. -->
 Ruleset:
 Consider a mini-game.
 The player sees 12 boxes. They open box after box until a "Game over sign" appears.
